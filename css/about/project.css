@@ -1,0 +1,100 @@
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 911px;
+  margin: 0 auto;
+}
+.project .project__container {
+  width: 1280px;
+  height: 711.641px;
+}
+.project .project__container .project__container-line {
+  display: flex;
+  width: 334px;
+  height: 20px;
+}
+.project .project__container .project__container-line .project__container-line-p1 {
+  margin-top: 10px;
+  width: 72px;
+  height: 1px;
+  background-color: rgb(29, 33, 48);
+}
+.project .project__container .project__container-line .project__container-line-p2 {
+  padding-left: 23px;
+  color: var(--primary-text, #1D2130);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project .project__container .project__container-text {
+  margin-top: 32px;
+  margin-left: 100px;
+  width: 640px;
+  height: 174px;
+}
+.project .project__container .project__container-text .project__container-text-h2 {
+  color: var(--primary-text, #1D2130);
+  font-family: "Roboto";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.project .project__container .project__container-img {
+  display: flex;
+  margin-top: 62px;
+  width: 1280px;
+  height: 421px;
+}
+.project .project__container .project__container-img .project__container-img-1 {
+  width: 411px;
+  height: 421px;
+  background-image: url(/images/header-img/Image\ \(1\).png);
+}
+.project .project__container .project__container-img .project__container-img-1 .project__container-img-1-div {
+  margin: 80px 48px 48px 48px;
+  width: 315px;
+  height: 293px;
+}
+.project .project__container .project__container-img .project__container-img-1 .project__container-img-1-div .project__container-img-1-div-h3 {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.project .project__container .project__container-img .project__container-img-1 .project__container-img-1-div .project__container-img-1-div-p {
+  padding-top: 10px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.project .project__container .project__container-img .project__container-img-1 .project__container-img-1-div .project__container-img-1-div-button {
+  margin-top: 70px;
+  width: 132px;
+  height: 51px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid white;
+  color: var(--primary-text, #1D2130);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.project .project__container .project__container-img .project__container-img-1 .project__container-img-1-div .project__container-img-1-div-button:hover {
+  background-color: #d3d3d3;
+}
+
+/*# sourceMappingURL=project.css.map */

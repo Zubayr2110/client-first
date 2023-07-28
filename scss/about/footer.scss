@@ -1,0 +1,95 @@
+.footer{
+    display: flex;
+    width: 1500px;
+    height: 402px;
+    background: rgba(11, 7, 6, 1);
+    margin: 0 auto;
+    background-image: url(/images/header-img/Logo\ \(7\).svg);
+    background-repeat: no-repeat;
+    background-position-y: 97px;
+    background-position-x: 110px;
+    .footer__link{
+        display: flex;
+        margin-top: 96px;
+        margin-left: 337px;
+        width: 366px;
+        height: 210px;
+        .footer__link-1{
+            list-style: none;
+            width: 74px;
+            height: 210px;
+            .footer__link-1-li1{
+                color: #FFF;
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 160%;
+            }
+            .footer__link-1-li{
+                padding-top: 24px;
+                color: rgb(157, 157, 157);
+                font-family: 'Roboto';
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+            }
+        }
+    }
+    .footer__form{
+        margin-left: 143px;
+        margin-top: 96px;
+        width: 544px;
+        height: 208px;
+        .footer__form-h2{
+            color: #FFF;
+            font-family: 'Roboto';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+        }
+        .footer__form-inp{
+            display: flex;
+            margin-top: 32px;
+            width: 544px;
+            height: 64px;
+            .footer__input{
+                padding-left: 24px;
+                width: 408px;
+                height: 62px;
+                background: #0B0706;
+                border-radius: 4px;
+                border: 1px solid rgba(235, 240, 249, 0.30);
+                color: rgba(235, 240, 249, 0.30);
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .footer__button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 136px;
+                height: 64px;
+                border-radius: 4px;
+                background: #FFF;
+                backdrop-filter: blur(40px);
+                border: 1px solid white;
+                color: var(--primary-text, #1D2130);
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .footer__button:hover{
+                color: #FFF;
+                background: #f9f9f996;
+            }
+        }
+    }
+}

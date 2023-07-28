@@ -1,0 +1,81 @@
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 484px;
+    margin: 0 auto;
+    .cta__container{
+        width: 1280px;
+        height: 384px;
+        background-image: url(/images/header-img/Image\ \(4\).png);
+        .cta__container-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            opacity: 0.5;
+            background: #0B0706;
+            .cta__container-1-content{
+                text-align: center;
+                width: 631px;
+                height: 199px;
+                .cta__container-1-content-h2{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: 'Roboto';
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                }
+                .cta__container-1-content-button{
+                    display: flex;
+                    margin-left: 142px;
+                    margin-top: 30px;
+                    width: 348px;
+                    height: 51px;
+                    .cta__container-1-content-button-1{
+                        width: 200px;
+                        height: 51px;
+                        border-radius: 4px;
+                        background: #00ff0d;
+                        border: 1px solid #00ff0d;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    .cta__container-1-content-button-1:hover{
+                        background: #005104;
+                    }
+                    .cta__container-1-content-button-2{
+                        margin-left: 32px;
+                        width: 116px;
+                        height: 51px;
+                        background: #fff;
+                        border-radius: 5px;
+                        border: 1px solid #fff;
+                        color: var(--primary-text, #1D2130);
+                        text-align: center;
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                    }
+                    .cta__container-1-content-button-2:hover{
+                        background: #838383;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

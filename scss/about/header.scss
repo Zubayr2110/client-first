@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1500px;
+    height: 802px;
+    margin: 0 auto;
+    .header__nav{
+        display: flex;
+        align-items: center;
+        width: 1500px;
+        height: 67px;
+        .header__nav-logo{
+            margin-left: 110px;
+            width: 130px;
+            height: 27px;
+        }
+        .header__nav-list{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            margin-left: 517px;
+            width: 497px;
+            height: 51px;
+            .header__nav-list-link1{
+                color: var(--black, #0B0706);
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                .header__nav-list-link-a{
+                    text-decoration: none;
+                    color: var(--black, #0B0706);
+                    font-family: 'Roboto';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+
+                }
+            }
+            .header__nav-list-link1:hover{
+                border-bottom: 2px solid red;
+                .header__nav-list-link-a{
+                    color: blue;
+                }
+            }
+            .header__nav-list-link{
+                .header__nav-list-link-a{
+                    text-decoration: none;
+                    color: var(--black, #0B0706);
+                    font-family: 'Roboto';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+            .header__nav-list-link:hover{
+                border-bottom: 2px solid red;
+                .header__nav-list-link-a{
+                    color: rgb(0, 83, 125);
+                }
+            }
+        }
+        .header__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20.5px;
+            width: 115px;
+            height: 43px;
+            border-radius: 4px;
+            border: 1px solid white;
+            background: var(--primary-text, #1D2130);
+            .header__button-p{
+                color: #FFF;
+                text-align: right;
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .header__button:hover{
+            background: #00176c;
+            .header__button-p{
+                color: antiquewhite;
+            }
+        }
+    }
+    .header__hero{
+        width: 1500px;
+        height: 735px;
+        background-image: url(/images/header-img/BG\ Image.png);
+        background-repeat: no-repeat;
+        .header__hero-text{
+            padding-top: 128px;
+            padding-left: 110px;
+            width: 640px;
+            height: 330px;
+            .header__hero-text-h1{
+                color: #FFF;
+                font-family: 'Roboto';
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+            }
+            .header__hero-button{
+                display: flex;
+                padding-top: 48px;
+                width: 312px;
+                height: 51px;
+                .header__hero-button-1{
+                    width: 148px;
+                    height: 51px;
+                    background: #fff;
+                    border-radius: 5px;
+                    border: 1px solid white;
+                    .header__hero-button-1-p{
+                        color: var(--primary-text, #1D2130);
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                .header__hero-button-1:hover{
+                    background: #ffffff99;
+                    border: 1px solid #ffffff99;
+                }
+                .header__hero-button-2{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 12px;
+                    width: 148px;
+                    height: 51px;
+                    background: rgba(255, 255, 255, 0);
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0);
+                    .header__hero-button-2-p{
+                        padding-left: 8px;
+                        color: #FFF;
+                        text-align: right;
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                .header__hero-button-2:hover{
+                    background: #ffffffa2;
+                }
+            }
+        }
+        .header__hero-line{
+            display: flex;
+            align-items: center;
+            margin-top: 193px;
+            margin-left: 110px;
+            width: 1280px;
+            height: 21px;
+            .header__hero-line-text{
+                color: #FFF;
+                text-align: right;
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .header__hero-line-2{
+                margin-left: 24px;
+                width: 861px;
+                height: 1px;
+                background: #E5E5E5;
+                backdrop-filter: blur(15px);
+            }
+        }
+    }
+}

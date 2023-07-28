@@ -1,0 +1,105 @@
+.What{
+    width: 1500px;
+    height: 901px;
+    margin: 0 auto;
+    background: var(--green-tertiary, #EFF7F2);
+    background-image: url(/images/header-img/Image.png);
+    background-repeat: no-repeat;
+    background-position-x: 910px;
+    background-position-y: 147px;
+    .What__text-1{
+        display: flex;
+        margin-top: 96px;
+        margin-left: 110px;
+        width: 212px;
+        height: 19px;
+        .What__text-1-line{
+            margin-top: 10px;
+            width: 72px;
+            height: 1px;
+            background: rgba(29, 33, 48, 1);
+        }
+        .What__text-1-text{
+            padding-left: 20px;
+            color: var(--primary-text, #1D2130);
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+    .What__text-2{
+        margin-top: 32px;
+        margin-left: 206px;
+        width: 608px;
+        height: 184px;
+        .What__text-2-h2{
+            color: var(--primary-text, #1D2130);
+            font-family: 'Roboto';
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+        .What__text-2-p{
+            padding-top: 20px;
+            color: var(--secondary-text, #525560);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+    }
+    .What__function{
+        display: flex;
+        margin-top: 32px;
+        margin-left: 206px;
+        width: 460px;
+        height: 442px;
+        .What__function-line{
+            width: 1px;
+            height: 441px;
+            background: #E5E5E5;
+        }
+        .What__function-div{
+            margin-left: 25px;
+            width: 436px;
+            height: 100%;
+            .What__function-div-1{
+                display: flex;
+                width: 436px;
+                height: 94px;
+                .What__function-div-1-img{
+                    width: 28px;
+                    height: 100%;
+                }
+                .What__function-div-1-text{
+                    margin-left: 23px;
+                    width: 384px;
+                    height: 100%;
+                    .What__function-div-1-p1{
+                        color: var(--primary-text, #1D2130);
+                        font-family: 'Roboto';
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    .What__function-div-1-text-p2{
+                        padding-top: 15px;
+                        color: var(--secondary-text, #525560);
+                        font-family: 'Roboto';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                    }
+                }
+            }
+        }
+    }
+}
